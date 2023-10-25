@@ -1,0 +1,15 @@
+/*const rl = require("readline-sync")
+
+function parOuImpar(a){
+    if((a % 2) === 0){
+        console.log("Par");
+    } else{
+        console.log("Impar");
+    }
+}
+
+
+let a = rl.questionFloat("Defina o valor de a:");
+let b = rl.questionFloat("Defina o valor de b:");
+parOuImpar(a);
+parOuImpar(b); */
