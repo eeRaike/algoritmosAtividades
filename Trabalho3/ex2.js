@@ -4,6 +4,7 @@ function main(){
     list10(original)
     pares(original)
     string(original)
+    maxMin(original)
     }
     
 
@@ -33,8 +34,10 @@ function string(og){
     }
 }
 
-function maxMin(){
-  
+function maxMin(og){
+    let min = Math.min(...og)
+    let max = Math.max(...og)
+  console.log(`\nO maior numero do Array é ${max} \nO menor numero do Array é ${min}`);
 
 }
 
