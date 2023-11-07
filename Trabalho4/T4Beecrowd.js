@@ -11,7 +11,6 @@ switch(c1){
     case "vertebrado":
         switch(c2){
             case "ave":
-                console.log("aveteste");
                 switch(c3){
                     case "carnivoro":
                         console.log("aguia");
@@ -21,9 +20,9 @@ switch(c1){
                         break;
 
                 }
+                break;
 
             case "mamifero":
-                console.log("mamiferoteste");
                 switch(c3){
                     case "onivoro":
                         console.log("humano");
@@ -32,9 +31,34 @@ switch(c1){
                     console.log("vaca");
                     break;
                 }
+                break;
 
         }
+        break;
     case "invertebrado":
+        switch(c2){
+            case "inseto":
+                switch(c3){
+                    case "hematofago":
+                        console.log("pulga");
+                        break;
+                    case "herbivoro":
+                        console.log("lagarta");
+                        break;
+                }
+                break;
+            case "anelideo":
+                switch(c3){
+                    case "hematofago":
+                        console.log("sanguessuga");
+                        break;
+                    case "onivoro":
+                        console.log("minhoca");
+                        break;
+                }
+                break;
+        }
+        break;
 }
 }
 
