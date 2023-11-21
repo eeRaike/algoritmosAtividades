@@ -14,7 +14,7 @@ function inverterString(str) {
     }
 function contarVogais(str){
     test = str.match(/[aeiou]/gi)
-    return test.length
-}
+    return console.log("Quantidade de vogais:"),test.length;
+};
 
     main()

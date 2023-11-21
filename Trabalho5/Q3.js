@@ -1,22 +1,24 @@
 const rl = require("readline-sync");
+const pessoas = [];
 function main(){
+while(pessoas.length < 2){
+    let nome = rl.question("Insira o nome");
+    let idade = rl.questionInt("Insira a idade");
+    let profissao = rl.question("Insira a profissao");
 
-pessoa = { 
-    nome: 0,
-    idade: 0,
-    profissao: 0
-}
-for ( i = 0; i <= 1; i++){
-pessoa.nome = rl.question("Insira o nome> ");
-pessoa.idade = rl.questionInt("Insira a Idade> ");
-pessoa.profissao = rl.question("Insira a profissao> ");
-apresentar()
+        pessoa = {
+
+        Nome: nome,
+        Idade: idade,
+        Profissao: profissao
+        }
+        pessoas.push(pessoa)
+    } 
+    pessoas.forEach(apresentar)
 }
 
-}
-
-function apresentar( ){
-    console.log(`Nome: ${pessoa.nome} \nIdade: ${pessoa.idade} \nProfissao: ${pessoa.profissao}`);
+function apresentar(pessoa){
+    console.log(`Nome: ${pessoa.Nome} \nIdade: ${pessoa.Idade} \nProfissao: ${pessoa.Profissao}`);
 }
 
 main()
