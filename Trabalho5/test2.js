@@ -1,8 +1,9 @@
-const string = "teste";
+let str = "banana"
+var newString = "";
+        for (var i = str.length - 1; i >= 0; i--) {
+            newString = newString + str[i];
+        }
+        
 
-function contarVogais(string){
-    string.match("e")
-
-}
-
-console.log(contarVogais(string));
+        console.log(newString);
+        console.log(str[1]);

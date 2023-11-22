@@ -2,8 +2,8 @@ const rl = require("readline-sync");
 function main(){
 
 
-    console.log(soma());
-    console.log(mult());
+    console.log("Resultado da soma",soma());
+    console.log("Resutaldo da multiplicacao>",mult());
 }
 
 function soma(){

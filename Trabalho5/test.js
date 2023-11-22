@@ -8,7 +8,7 @@ function main() {
 function inverterString(str){
     var newString = "";
         for(var i = str.lenght - 1; i >= 0; i--){
-            newString = newString + str[i]
+            newString = newString + str[i];
         }
         return newString;
 
